@@ -16,7 +16,7 @@ This is a Python script that sends an email with HTML-styled content using the G
    pip install smtplib
    
 2. Clone the repository:
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/nithishkumar02272000/Python_For_sending_mail
 
 3. Open the mars4.py file and update the following variables with your Gmail address and password:
 sender_email = 'your_email@gmail.com'  # Replace with your Gmail address
