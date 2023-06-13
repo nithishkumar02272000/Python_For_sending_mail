@@ -23,9 +23,17 @@ sender_email = 'your_email@gmail.com'  # Replace with your Gmail address
 sender_password = 'your_password'  # Replace with your Gmail password
 
 4. Run the script using the following command:
-python html_email_sender.py
+mars4.py
 Enter the title, message, and recipient's email address when prompted.
 
 The script will send the email using the Gmail SMTP server and display a success message if the email was sent successfully.
 
-Note: Make sure to enable "Less secure app access" in your Gmail account settings or use App Password if you have 2-Step Verification enabled.
+Note: Make sure to Go to the Google Account Security page.
+   1.Under the "Signing in to Google" section, click on "App passwords". You may need to verify your identity by signing in again.
+   2.In the "Select app" dropdown, choose "Mail" or "Other (Custom name)".
+   3.In the "Select device" dropdown, choose "Other (Custom name)".
+   4.Enter a custom name for the app or device (e.g., "Python Email").
+   5.Click on the "Generate" button.
+   6.Google will generate an application-specific password for you. Copy the generated password.
+   
+Now, replace the sender_password variable in your code with the application-specific password you generated. Save and run the code again. It should authenticate successfully and send the email without the error.
